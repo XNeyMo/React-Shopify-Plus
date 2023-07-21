@@ -1,97 +1,13 @@
-@font-face {
-  font-family: "Shopify Sans Web Regular Regular";
-  src: url("https://db.onlinewebfonts.com/t/f5e745006bde1613ea8dc41d713bf031.eot");
-  src: url("https://db.onlinewebfonts.com/t/f5e745006bde1613ea8dc41d713bf031.eot?#iefix")format("embedded-opentype"),
-  url("https://db.onlinewebfonts.com/t/f5e745006bde1613ea8dc41d713bf031.woff2")format("woff2"),
-  url("https://db.onlinewebfonts.com/t/f5e745006bde1613ea8dc41d713bf031.woff")format("woff"),
-  url("https://db.onlinewebfonts.com/t/f5e745006bde1613ea8dc41d713bf031.ttf")format("truetype"),
-  url("https://db.onlinewebfonts.com/t/f5e745006bde1613ea8dc41d713bf031.svg#Shopify Sans Web Regular Regular")format("svg");
-}
-
-/* ============= GLOBAL VARIABLES ============= */
-
-:root {
-  --darkcolor: #000000;
-  --intercolor1: #d2f224;
-  --intercolor2: #bdbdbd;
-  --lightcolor: #f8f4f4;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
-  font-family: 'Shopify Sans Web Regular Regular', sans-serif;
-  background-color: var(--darkcolor);
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-/* ============= HEADER ============= */
-
-header {
-  border-bottom: solid .5px var(--intercolor2);
-
-  & > nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--darkcolor);
-    margin-left: 5.625rem;
-    margin-right: 5.625rem;
-    height: 4.5rem;
-
-    .nav-left {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      list-style: none;
-      gap: 3rem;
-
-      & > a {
-        align-items: center;
-
-        & > img {
-          margin-top: 3px;
-          width: 127px;
-          color: var(--lightcolor);
-        }
-        
-      }
-
-      & > ul {
-        margin-top: -1px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 2rem;
-
-        & > li > a{
-          text-decoration: none;
-          color: var(--lightcolor);
-          font-size: 16px;
-
-          &:hover {
-            text-decoration: underline;
-          }
-        }
-      }
-    }
-
-    .nav-right {
-      list-style: none;
-
-      & > li > a {
-        margin-top: -1px;
-        text-decoration: none;
-        color: var(--intercolor1);
-        font-size: 16px;
-
-        &:hover {
-          text-decoration: underline;
-        }
-      }
-    }
-  }
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }
