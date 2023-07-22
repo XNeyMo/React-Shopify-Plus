@@ -2,14 +2,214 @@
     font-display: swap;
     font-family: ShopifySans;
     font-style: normal;
+    font-weight: 300;
+    src: url(https://cdn.shopify.com/static/fonts/ShopifySans--light.woff2) format("woff2")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: ShopifySans;
+    font-style: normal;
+    font-weight: 400;
     src: url(https://cdn.shopify.com/static/fonts/ShopifySans--regular.woff2) format("woff2")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: ShopifySans;
+    font-style: normal;
+    font-weight: 500;
+    src: url(https://cdn.shopify.com/static/fonts/ShopifySans--medium.woff2) format("woff2")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: ShopifySans;
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://cdn.shopify.com/static/fonts/ShopifySans--bold.woff2) format("woff2")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: ShopifySans;
+    font-style: normal;
+    font-weight: 800;
+    src: url(https://cdn.shopify.com/static/fonts/ShopifySans--extrabold.woff2) format("woff2")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: ShopifySans;
+    font-style: normal;
+    font-weight: 900;
+    src: url(https://cdn.shopify.com/static/fonts/ShopifySans--black.woff2) format("woff2")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: IBMPlexMono;
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://cdn.shopify.com/shopifycloud/brochure2/production/fonts/IBMPlexMono--regular.woff2) format("woff2")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: IBMPlexMono;
+    font-style: normal;
+    font-weight: 500;
+    src: url(https://cdn.shopify.com/shopifycloud/brochure2/production/fonts/IBMPlexMono--medium.woff2) format("woff2")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: IBMPlexMono;
+    font-style: normal;
+    font-weight: 600;
+    src: url(https://cdn.shopify.com/shopifycloud/brochure2/production/fonts/IBMPlexMono--semibold.woff2) format("woff2")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: PolySans;
+    font-style: normal;
+    font-weight: 500;
+    src: url(https://cdn.shopify.com/shopifycloud/brochure2/production/fonts/PolySans-Neutral.woff2) format("woff2")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: PolySans;
+    font-style: normal;
+    font-weight: 600;
+    src: url(https://cdn.shopify.com/shopifycloud/brochure2/production/fonts/PolySans-Median.woff2) format("woff2")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: PolySans;
+    font-style: italic;
+    font-weight: 600;
+    src: url(https://cdn.shopify.com/shopifycloud/brochure2/production/fonts/PolySans-MedianItalic.woff2) format("woff2")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: PolySans;
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://cdn.shopify.com/shopifycloud/brochure2/production/fonts/PolySans-Bulky.woff2) format("woff2")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: DrukCondSuper;
+    font-style: normal;
+    font-weight: 900;
+    src: url(https://cdn.shopify.com/shopifycloud/brochure2/production/fonts/DrukCondSuper--black.woff2) format("woff2")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: DrukTextHeavy;
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://cdn.shopify.com/shopifycloud/brochure2/production/fonts/DrukTextHeavy--bold.woff2) format("woff2")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: FT88;
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://cdn.shopify.com/shopifycloud/brochure2/production/fonts/FT88--regular.woff2) format("woff2")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Roslindale;
+    font-style: normal;
+    font-weight: 500;
+    src: url(https://cdn.shopify.com/shopifycloud/brochure2/production/fonts/editions-winter-2023/Roslindale/Roslindale-DisplayCondensedMedium.woff2) format("woff2")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: PPNeueMachina;
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://cdn.shopify.com/shopifycloud/brochure2/production/fonts/PPNeueMachina-InktrapLight.woff2) format("woff2")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: PPNeueMachina;
+    font-style: italic;
+    font-weight: 400;
+    src: url(https://cdn.shopify.com/shopifycloud/brochure2/production/fonts/PPNeueMachina-InktrapLightItalic.woff2) format("woff2")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Trap;
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://cdn.shopify.com/static/fonts/Trap--regular.woff2) format("woff2")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Trap;
+    font-style: normal;
+    font-weight: 500;
+    src: url(https://cdn.shopify.com/static/fonts/Trap--medium.woff2) format("woff2")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Trap;
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://cdn.shopify.com/static/fonts/Trap--bold.woff2) format("woff2")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Trap;
+    font-style: normal;
+    font-weight: 800;
+    src: url(https://cdn.shopify.com/static/fonts/Trap--extrabold.woff2) format("woff2")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: FeatureDisplay;
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://cdn.shopify.com/static/fonts/capital/bfcm/FeatureDisplay-Regular.otf) format("opentype")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: FeatureDisplay;
+    font-style: normal;
+    font-weight: 500;
+    src: url(https://cdn.shopify.com/static/fonts/capital/bfcm/FeatureDisplay-Medium.otf) format("opentype")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: FeatureDisplay;
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://cdn.shopify.com/static/fonts/capital/bfcm/FeatureDisplay-Bold.otf) format("opentype")
 }
 
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    background-color: black;
     font-family: ShopifySans, sans-serif;
 }
 
