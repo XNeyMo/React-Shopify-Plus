@@ -2,7 +2,7 @@ import logo from './../logo.svg'
 
 export const Header = () => {
     return (
-        <header className='w-full border-b border-white/20 text-white block'>
+        <header className='w-full border-b border-white/20 text-white fixed bg-black'>
             <nav className='flex h-[72px] mx-[5.6rem] justify-between'>
                 <div className='flex'>
                     <a className='flex items-center' href="">
