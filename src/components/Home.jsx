@@ -2,7 +2,7 @@ export const Home = () => {
     return (
         <section className="h-screen flex mx-[5.6rem] text-white pt-[calc(4.5rem+73px)]">
             <div className="w-6/12">
-                <p className="uppercase text-[#d0f224] font-bold text-[1.32rem]">La plataforma de comercio número 1.</p>
+                <p className="uppercase text-[#d0f224] font-bold text-[1.32rem] tracking-tighter">La plataforma de comercio número 1.</p>
                 
                 <h1 className="font-bold text-[3.6rem] leading-[4rem] grid grid-cols-1 mb-[1rem]">
                     <span>Vende más,</span>
