@@ -1,16 +1,33 @@
+import Check from '../imgs/check.svg';
+
 export const Description6 = () => {
     return (
         <section className="px-[5.6rem] bg-white py-[7.2rem]">
             <p className="uppercase text-[#1a41c0] font-bold text-[1.32rem]">Comprometidos con la atencion al cliente</p>
-            <h1 className="font-bold text-[3.6rem] pr-[8rem] leading-[4rem] mb-[1rem] tracking-normal">Cuenta con toda la asistencia que necesites</h1>
+            <h1 className="font-bold text-[3.6rem] pr-[8rem] leading-[4rem] mb-[1rem] tracking-normal mr-[20rem]">Cuenta con toda la asistencia que necesites</h1>
 
-            <div className="flex">
-                <div className="w-6/12 pr-[15.5rem]">
-                    <ul className="list-image-checkmark text-[1.32rem]">
-                        <li>Atención al cliente técnica prioritaria 24/7 por teléfono, email o chat en vivo</li>
-                        <li>Conocimiento de la plataforma e información útil sobre el sector mediante el Programa de Éxito de los Emprendedores (Merchant Success)</li>
-                        <li>Migración personalizada, lanzamiento y atención al cliente para la gestión de cuentas sin coste adicional</li>
-                        <li>Personalización de la plataforma con más de 8.000 apps y cientos de partners de Shopify Plus y aplicaciones certificadas</li>
+            <div className="flex mt-[3.5rem]">
+                <div className="w-6/12 pr-[7rem]">
+                    <ul className="grid grid-cols-1 gap-[2rem] text-[1.52rem]">
+                        <li className="flex justify-between items-start gap-[2rem]">
+                            <img className='w-[3.8rem]' src={Check} alt="Check" />
+                            <span>Atención al cliente técnica prioritaria 24/7 por teléfono, email o chat en vivo</span>
+                        </li>
+
+                        <li className="flex justify-between items-start gap-[2rem]">
+                            <img className='w-[3.8rem]' src={Check} alt="Check" />
+                            <span>Conocimiento de la plataforma e información útil sobre el sector mediante el Programa de Éxito de los Emprendedores (Merchant Success)</span>
+                        </li>
+
+                        <li className="flex justify-between items-start gap-[2rem]">
+                            <img className='w-[3.8rem]' src={Check} alt="Check" />
+                            <span>Migración personalizada, lanzamiento y atención al cliente para la gestión de cuentas sin coste adicional</span>
+                        </li>
+
+                        <li className="flex justify-between items-start gap-[2rem]">
+                            <img className='w-[3.8rem]' src={Check} alt="Check" />
+                            <span>Personalización de la plataforma con más de 8.000 apps y cientos de partners de Shopify Plus y aplicaciones certificadas</span>
+                        </li>
                     </ul>
                 </div>
 

@@ -6,11 +6,7 @@ module.exports = {
   ],
 
   theme: {
-    extend: {
-      listStyleImage: {
-        checkmark: 'url("/src/Img/check.png")',
-      },
-    },
+    extend: {},
   },
 
   plugins: [],

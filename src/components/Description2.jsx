@@ -1,18 +1,31 @@
+import Check from '../imgs/check.svg';
+
 export const Description2 = () => {
     return (
         <section className="px-[5.6rem] bg-white py-[7.2rem]">
-            <div className="flex">
+            <div className="flex justify-between">
                 <div className="w-6/12">
                     <p className="uppercase text-[#1a41c0] font-bold text-[1.32rem] tracking-tighter">Diseñada para convertir</p>
-                    <h1 className="font-bold text-[3.6rem] pr-[8rem] leading-[4rem] mb-[1rem]">Convierte hasta un 91% más desde el primer día</h1>
-                    <p className="text-[1.32rem]">Más información</p>
+                    <h1 className="font-bold text-[3.6rem] pr-[8rem] leading-[4rem] mb-[1rem] tracking-normal">Convierte hasta un 91% más desde el primer día</h1>
+                    <p className="text-[1.5rem]">Más información</p>
                 </div>
 
                 <div className="w-6/12">
-                    <ul className="list-image-checkmark text-[1.32rem]">
-                        <li>Atrae a compradores que estén buscando productos como los tuyos con audiencias segmentadas por datos en marketplaces sociales populares.</li>
-                        <li>Siempre realiza las ventas con Shop Pay, el proceso de pago de mejor conversión en internet.</li>
-                        <li>Retén a los clientes con programas de fidelización y un toque personal desde la página de inicio hasta la bandeja de entrada.</li>
+                    <ul className="grid grid-cols-1 gap-[2rem] text-[1.52rem]">
+                        <li className="flex justify-between items-start gap-[2rem]">
+                            <img className='w-[3.8rem]' src={Check} alt="Check" />
+                            <span>Atrae a compradores que estén buscando productos como los tuyos con audiencias segmentadas por datos en marketplaces sociales populares.</span>
+                        </li>
+
+                        <li className="flex justify-between items-start gap-[2rem]">
+                            <img className='w-[3.8rem]' src={Check} alt="Check" />
+                            <span>Siempre realiza las ventas con Shop Pay, el proceso de pago de mejor conversión en internet.</span>
+                        </li>
+                        
+                        <li className="flex justify-between items-start gap-[2rem]">
+                            <img className='w-[3.8rem]' src={Check} alt="Check" />
+                            <span>Retén a los clientes con programas de fidelización y un toque personal desde la página de inicio hasta la bandeja de entrada.</span>
+                        </li>
                     </ul>
                 </div>
             </div>
